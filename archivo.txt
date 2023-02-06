@@ -1,0 +1,62 @@
+number $main(){
+	valor = .0-
+	$ejemplo = 12.3;
+	$ejemplo = 010;
+	real $ejemplo;
+	$ejemplo = O43450;
+	$ejemplo = 4.;
+	variable
+	loop($ejemplo!=0){
+		$ejemplo = $ejemplo - 1;
+		$ejemplo = $ejemplo + 2;
+		$ejemplo = $ejemplo * 3;
+		$ejemplo = $ejemplo / 4;
+		$ejemplo = $ejemplo % 5;
+		$ejemplo = $ejemplo \ 6;
+		$ejemplo = $ejemplo ^ 7;
+	}
+	symbol $esCadena = "soy cadenaaa";
+	"" 
+	"ejemplo no "valido";
+	""" , "hola 'mundo";
+	symbol $esCaracter = 'c';
+	$ejemplo = 000000000011111.1010;
+	number $i=1;
+	$ejemplo = o010;
+	$aaa <!<< z; 
+	select($i){
+		alternative 0:
+			$printf("opcion 0");
+			stop;
+		alternative 1:
+			$printf("opcion 1");
+			stop;
+		other
+			stop;
+	}
+	
+	symbol $test = "soy cadenaaa";
+	// soy un comentario 1l
+	
+	$octal =o100;
+	large $numerote=242342;
+
+	evaluate($numero>2342){
+		$printf("mayor");
+	}instead{
+		$printf("menor");
+	}
+	
+	/*
+		Soy un comentario
+		de
+		varias lineas
+	*/
+	
+	loop($true){
+		$printf("ciclo");
+		step;
+	}
+	
+	throw 0;
+}
